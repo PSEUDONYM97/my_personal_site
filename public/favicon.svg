@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0e0e0e"/>
+  <rect x="50" y="50" width="1100" height="530" rx="8" stroke="#1c2330" stroke-width="2"/>
+  
+  <!-- Gradient Background -->
+  <rect x="100" y="100" width="1000" height="430" rx="8" fill="url(#paint0_linear)"/>
+  
+  <!-- Logo -->
+  <g transform="translate(150, 180)">
+    <text font-family="monospace" font-size="120" font-weight="700" fill="white">
+      <tspan x="0" y="0">{</tspan>
+      <tspan x="80" y="0">jw</tspan>
+      <tspan x="220" y="0">}</tspan>
+    </text>
+  </g>
+  
+  <!-- Title -->
+  <text font-family="sans-serif" font-size="64" font-weight="700" fill="white">
+    <tspan x="150" y="350">Building Honest Systems</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text font-family="sans-serif" font-size="36" font-weight="400" fill="#9ca3af">
+    <tspan x="150" y="420">No fluff. No unnecessary complexity.</tspan>
+    <tspan x="150" y="470">Just solutions that work.</tspan>
+  </text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1000" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e0e0e"/>
+      <stop offset="1" stop-color="#12161b"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none">
+  <circle cx="150" cy="150" r="100" fill="#6366F1" opacity="0.1"/>
+  <path d="M172 120C172 109.507 164.493 101 154 101H146C135.507 101 128 109.507 128 120V180C128 190.493 135.507 199 146 199H154C164.493 199 172 190.493 172 180V120Z" fill="#818CF8"/>
+  <rect x="128" y="101" width="44" height="98" rx="20" fill="#6366F1"/>
+  <circle cx="150" cy="170" r="10" fill="white"/>
+  <path d="M225 120C225 109.507 217.493 101 207 101H199C188.507 101 181 109.507 181 120V180C181 190.493 188.507 199 199 199H207C217.493 199 225 190.493 225 180V120Z" fill="#818CF8"/>
+  <rect x="181" y="101" width="44" height="98" rx="20" fill="#6366F1"/>
+  <circle cx="203" cy="170" r="10" fill="white"/>
+  <path d="M119 120C119 109.507 111.493 101 101 101H93C82.5066 101 75 109.507 75 120V180C75 190.493 82.5066 199 93 199H101C111.493 199 119 190.493 119 180V120Z" fill="#818CF8"/>
+  <rect x="75" y="101" width="44" height="98" rx="20" fill="#6366F1"/>
+  <circle cx="97" cy="170" r="10" fill="white"/>
+  <path d="M150 220V240M150 240H180M150 240H120" stroke="#6366F1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M95 70L105 80M105 70L95 80" stroke="#FF5757" stroke-width="4" stroke-linecap="round"/>
+  <path d="M195 70L205 80M205 70L195 80" stroke="#FF5757" stroke-width="4" stroke-linecap="round"/>
+</svg> 

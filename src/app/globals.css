@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--background);
+    background-image: 
+      linear-gradient(to right, var(--border-color) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: center;
+    color: var(--foreground);
+    font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .interactive-element {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .interactive-element:hover {
+    @apply transform scale-[1.02] shadow-lg;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out hover:border-blue-500/30 hover:shadow-lg hover:transform hover:scale-[1.02];
+  }
+
+  .link-hover {
+    @apply transition-all duration-300 ease-in-out hover:text-blue-400;
+  }
+
+  .button-hover {
+    @apply transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:shadow-lg;
+  }
+
+  /* Focus styles for keyboard navigation */
+  .focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-gray-900;
+  }
+
+  /* Improved color contrast */
+  .text-blue-400 {
+    @apply text-blue-300; /* Brighter blue for better contrast */
+  }
+
+  .bg-blue-600 {
+    @apply bg-blue-500; /* Slightly lighter blue for better contrast */
+  }
+}
+
+/* Base focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-gray-900;
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --primary: #ffffff;
+  --secondary: #737373;
+  --accent: #ea580c;
+  --card-bg: #171717;
+  --border-color: rgba(38, 38, 38, 0.2); /* More subtle grid lines */
+  
+  --font-sans: var(--font-inter);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+

@@ -1,0 +1,43 @@
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Files and folders for Turborepo
+.turbo
+dist
+.swc
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project-specific cruft
+/backup
+/v2-development
+/jared-ai-profile
+/docs
+"Jared's Resume.docx"
+"my new resume"
+info
+treeoutput
+"vibelight work"
+OLD_index.html
